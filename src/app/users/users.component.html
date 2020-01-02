@@ -1,0 +1,10 @@
+<div class="d-flex flex-wrap">
+	<div class="card" style="width: 18rem;" *ngFor="let user of userData">
+		<img class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">{{user.first_name}}</h5>
+			<p class="card-text">{{user.email}}</p>
+			<a href="{{user.avatar}}" class="btn btn-primary">Go somewhere</a>
+		</div>
+	</div>
+</div>

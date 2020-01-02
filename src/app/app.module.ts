@@ -9,7 +9,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { NavComponent } from './nav/nav.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { HttpClientModule } from '@angular/common/http';
-import { PostsComponent } from './posts/posts.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { PostsComponent } from './posts/posts.component';
     PricingComponent,
     NavComponent,
     CarouselComponent,
-    PostsComponent
+    UsersComponent
   ],
   imports: [
     BrowserModule,
