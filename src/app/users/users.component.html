@@ -1,4 +1,10 @@
-<div class="d-flex flex-wrap">
+<style>
+  .card{
+    margin-right:50px;
+    margin-bottom:10px;
+  }
+</style>
+<div class="d-flex flex-wrap justify-content-center">
 	<div class="card" style="width: 18rem;" *ngFor="let user of userData">
 		<img class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
 		<div class="card-body">
