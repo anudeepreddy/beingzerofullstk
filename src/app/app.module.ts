@@ -7,6 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './features/features.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { NavComponent } from './nav/nav.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { NavComponent } from './nav/nav.component';
     HomeComponent,
     FeaturesComponent,
     PricingComponent,
-    NavComponent
+    NavComponent,
+    CarouselComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

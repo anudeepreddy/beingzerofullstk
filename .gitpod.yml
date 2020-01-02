@@ -1,3 +1,5 @@
 vscode:
   extensions:
     - thekalinga.bootstrap4-vscode@6.1.0:duaQhthWtxWBzXAGe+5GKQ==
+tasks:
+  - init: npm i -g @angular/cli
